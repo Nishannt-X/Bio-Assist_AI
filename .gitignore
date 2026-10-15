@@ -1,0 +1,21 @@
+# Environment and sensitive keys
+.env
+.env*.local
+raglocal
+raglocal.pub
+
+# Python virtual environments & caches
+rag_env311/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+
+# Node & frontend dependencies
+node_modules/
+.npm
+dist/
+.DS_Store
